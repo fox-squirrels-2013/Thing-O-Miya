@@ -1,2 +1,2 @@
-require './sailboat'
+require './app.rb'
 run Sinatra::Application
