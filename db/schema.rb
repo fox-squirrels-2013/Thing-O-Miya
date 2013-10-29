@@ -18,8 +18,6 @@ ActiveRecord::Schema.define(version: 201310281500) do
   create_table "sailboats", force: true do |t|
     t.string   "name"
     t.integer  "length"
-    t.integer  "height"
-    t.integer  "weight"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
