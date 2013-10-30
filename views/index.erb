@@ -1,1 +1,15 @@
 <h1>The cure for anything is salt water: sweat, tears or the sea.</h1>
+
+<ol>
+<% @sailboats.each do |sailboat| %>
+  <li>
+    <%= "#{sailboat.name} #{sailboat.length}" %>
+    <form action="/destroy" method="post">
+      <input type="hidden" name="id" value="<%= sailboat.id %>" />
+      <input type="hidden" name="_method" value="delete" />
+      <input type="submit" value="Delete!"> 
+    </form>
+  </li>
+<% end %>
+</ol>
+

@@ -1,0 +1,7 @@
+<form action="/update" method="post">
+  <input type="text" name="name" value="<%= @sailboat.name %>">
+  <input type="text" name="length" value="<%= @sailboat.length %>">
+  <input type="hidden" name="id" value="<%= @sailboat.id %>" />
+  <input type="hidden" name="_method" value="put" />
+  <input type="submit" value="Update"> <!-- submit is known html command, update is the word on the button-->
+</form>

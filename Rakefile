@@ -12,3 +12,8 @@ namespace :db do
     `dropdb sailboat`
   end
 end
+
+desc 'Start IRB with application environment loaded'
+task "console" do
+  exec "irb -r ./app.rb"
+end
