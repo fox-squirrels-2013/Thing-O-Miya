@@ -9,5 +9,5 @@ Release 1:
 * Push to Heroku
 
 Release 2:
-*Updated with restful routes
+* Updated with restful routes
 
