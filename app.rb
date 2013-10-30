@@ -3,7 +3,7 @@ require 'active_record'
 require 'shotgun'
 require_relative './app/models/sailboat'
 
-ActiveRecord::Base.establish_connection(adapter: 'postgresql', database: 'sailboats')
+ActiveRecord::Base.establish_connection(adapter: 'postgresql', database: 'sailboat')
 
 get '/' do 
   erb :index

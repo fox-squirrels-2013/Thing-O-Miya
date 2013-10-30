@@ -1,5 +1,3 @@
-
-
 class CreateSailboats < ActiveRecord::Migration
   def change
     create_table :sailboats do |t|
