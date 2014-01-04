@@ -1,7 +1,7 @@
 Thing-O-Miya
 ============
 
-A repository for things
+A Dev Bootcamp repository for things: weeks 3-6
 
 Release 1: 
 * Create Thing-O repo
